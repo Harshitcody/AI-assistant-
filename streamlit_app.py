@@ -1,5 +1,4 @@
-"""
-Lucror AI Pitch Assistant - Streamlit version (cloud-friendly).
+""" AI Pitch Assistant - Streamlit version (cloud-friendly).
 
 The 33B model is NOT loaded inside Streamlit. Text is generated through the
 Hugging Face Inference API (needs an HF token in Streamlit secrets), so the app
@@ -19,7 +18,7 @@ PRODUCTS = json.loads((Path(__file__).parent / "products.json").read_text(encodi
 DEFAULT_MODEL = "apathy-exe/Nanbeige4.3-33B"
 
 SYSTEM_PROMPT = (
-    "You are a senior AI consultant at Lucror, a consulting company that brings the world's "
+    "You are a senior AI consultant at , a consulting company that brings the world's "
     "best AI products to large enterprises in the Middle East and India. Your guiding rule: "
     "technology only matters if it helps the client 'Increase Sales or Reduce Cost'. "
     "Be concrete, professional, concise and results-focused. Never invent client names or "
@@ -72,7 +71,7 @@ with st.sidebar:
     st.session_state["demo_mode"] = st.toggle("Demo mode (no model calls)", value=False)
     st.caption("Token is read from `st.secrets['HF_TOKEN']`.")
 
-st.title("💡 Lucror AI Pitch Assistant")
+st.title("💡  AI Pitch Assistant")
 st.write("Match client problems to AI solutions that **Increase Sales or Reduce Cost**.")
 
 tab1, tab2, tab3 = st.tabs(["Pitch Generator", "ROI Calculator", "Ask the Consultant"])
