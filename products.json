@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Gen AI Bots",
+    "best_for": ["customer support", "internal knowledge search", "content drafting", "HR helpdesk"],
+    "goal": "Reduce Cost",
+    "benefit": "Answers repetitive questions instantly from company documents, cutting support workload.",
+    "typical_metrics": "30-60% fewer tickets handled by humans; response time from hours to seconds"
+  },
+  {
+    "name": "Voice AI",
+    "best_for": ["call centers", "collections reminders", "appointment booking", "lead qualification"],
+    "goal": "Reduce Cost",
+    "benefit": "AI agents handle inbound and outbound calls 24/7 in multiple languages.",
+    "typical_metrics": "40-70% lower cost per call; higher contact rate on outbound campaigns"
+  },
+  {
+    "name": "Conversational AI",
+    "best_for": ["WhatsApp commerce", "website chat", "lead capture", "banking queries"],
+    "goal": "Increase Sales",
+    "benefit": "Engages customers in natural chat or voice, guides them to purchase and captures leads.",
+    "typical_metrics": "10-30% lift in lead conversion; 24/7 engagement"
+  },
+  {
+    "name": "AI Video Personalization",
+    "best_for": ["marketing campaigns", "customer onboarding", "renewals", "upselling"],
+    "goal": "Increase Sales",
+    "benefit": "Creates one-to-one videos with the customer's name, offer or usage data at scale.",
+    "typical_metrics": "2-5x higher click-through; 20-40% lift in conversion vs generic video"
+  },
+  {
+    "name": "Visual AI / Computer Vision",
+    "best_for": ["retail shelf monitoring", "quality inspection", "footfall analytics", "safety compliance"],
+    "goal": "Reduce Cost",
+    "benefit": "Cameras and images are analysed automatically to detect defects, stock gaps and safety issues.",
+    "typical_metrics": "Fewer defects and stock-outs; large reduction in manual inspection time"
+  },
+  {
+    "name": "Face AI",
+    "best_for": ["secure access", "attendance", "KYC verification", "customer recognition"],
+    "goal": "Reduce Cost",
+    "benefit": "Fast, contactless identity verification with consent and secure data handling.",
+    "typical_metrics": "KYC time from days to minutes; reduced fraud and manual checks"
+  },
+  {
+    "name": "AI Competitor Monitoring",
+    "best_for": ["pricing strategy", "marketing intelligence", "product launches", "brand tracking"],
+    "goal": "Increase Sales",
+    "benefit": "Tracks competitors' prices, ads, launches and sentiment automatically so the brand reacts fast.",
+    "typical_metrics": "Faster pricing and campaign decisions; better win rates"
+  },
+  {
+    "name": "AI for Digital Ads Performance",
+    "best_for": ["performance marketing", "e-commerce", "lead generation", "app installs"],
+    "goal": "Increase Sales",
+    "benefit": "Optimises bids, creatives and audiences to improve return on ad spend.",
+    "typical_metrics": "10-30% lower cost per acquisition; higher ROAS"
+  }
+]
